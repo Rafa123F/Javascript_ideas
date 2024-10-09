@@ -33,9 +33,11 @@ function creatCards(card) {
     myApp.appendChild(myDiv);
 }
 
-///////////////////
 
 myCards.forEach(creatCards);
+
+///////////////////
+
 const listOfElements = document.querySelectorAll('h2');
 
 const mainHeading = document.querySelector('h2');
